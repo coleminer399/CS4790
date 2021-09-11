@@ -2628,21 +2628,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
-      },
-      "Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "3.1.18",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.15",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.5"
-        },
-        "compile": {
-          "bin/placeholder/Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Infrastructure.dll": {}
-        }
       }
     }
   },
@@ -8608,16 +8593,10 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
-    },
-    "Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../Infrastructure/Infrastructure.csproj",
-      "msbuildProject": "../Infrastructure/Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 3.1.18",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.15",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.15",
@@ -8630,11 +8609,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\03cjm\\Desktop\\CS4790Folder\\CS4790\\FoodDelivery\\FoodDelivery.csproj",
-      "projectName": "FoodDelivery",
-      "projectPath": "C:\\Users\\03cjm\\Desktop\\CS4790Folder\\CS4790\\FoodDelivery\\FoodDelivery.csproj",
+      "projectUniqueName": "C:\\Users\\03cjm\\Desktop\\CS4790Folder\\CS4790\\Infrastructure\\Infrastructure.csproj",
+      "projectName": "Infrastructure",
+      "projectPath": "C:\\Users\\03cjm\\Desktop\\CS4790Folder\\CS4790\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\03cjm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\03cjm\\Desktop\\CS4790Folder\\CS4790\\FoodDelivery\\obj\\",
+      "outputPath": "C:\\Users\\03cjm\\Desktop\\CS4790Folder\\CS4790\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\03cjm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8650,11 +8629,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "C:\\Users\\03cjm\\Desktop\\CS4790Folder\\CS4790\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\03cjm\\Desktop\\CS4790Folder\\CS4790\\Infrastructure\\Infrastructure.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -8697,9 +8672,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
