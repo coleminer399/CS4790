@@ -8,12 +8,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodDelivery", "FoodDeliver
 		{4B106F0D-31D9-47D8-A46F-DCB43F6F03AF} = {4B106F0D-31D9-47D8-A46F-DCB43F6F03AF}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "..\Infrastructure\Infrastructure.csproj", "{4B106F0D-31D9-47D8-A46F-DCB43F6F03AF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationCore", "..\ApplicationCore\ApplicationCore.csproj", "{218F1444-37F3-4515-AB02-6A92CE364A14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "..\Infrastructure\Infrastructure.csproj", "{4B106F0D-31D9-47D8-A46F-DCB43F6F03AF}"
 	ProjectSection(ProjectDependencies) = postProject
-		{4B106F0D-31D9-47D8-A46F-DCB43F6F03AF} = {4B106F0D-31D9-47D8-A46F-DCB43F6F03AF}
+		{218F1444-37F3-4515-AB02-6A92CE364A14} = {218F1444-37F3-4515-AB02-6A92CE364A14}
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationCore", "..\ApplicationCore\ApplicationCore.csproj", "{218F1444-37F3-4515-AB02-6A92CE364A14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

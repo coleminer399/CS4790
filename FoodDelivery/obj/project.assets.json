@@ -2629,10 +2629,21 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "ApplicationCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ApplicationCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApplicationCore.dll": {}
+        }
+      },
       "Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "ApplicationCore": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "3.1.18",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.15",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.5"
@@ -8608,6 +8619,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "ApplicationCore/1.0.0": {
+      "type": "project",
+      "path": "../ApplicationCore/ApplicationCore.csproj",
+      "msbuildProject": "../ApplicationCore/ApplicationCore.csproj"
     },
     "Infrastructure/1.0.0": {
       "type": "project",
