@@ -21,6 +21,7 @@ namespace ApplicationCore.Interfaces
         //NoTracking is ReadOnly Results, and Includes is Join of other objects
         T Get(Expression<Func<T, bool>> predicate, bool asNoTracking = false, string includes = null);
 
+        Task<T> GetAsync(Expression<Func<T, bool>> predicate, bool asNoTracking = false, string includes = null);
         //Returns an Ennumerable list of results to iterate through
         IEnumerable<T> List();
         //Returns an Ennumerable list of results to iterate through

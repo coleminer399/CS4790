@@ -23,20 +23,23 @@ namespace Infrastructure.Data
 
         public void Add(T entity)
         {
-            throw new NotImplementedException();
+            _dbcontext.Set<T>().Add(entity);
+            _dbcontext.SaveChanges();
         }
 
         public void Delete(T entity)
         {
-            throw new NotImplementedException();
+            _dbcontext.Set<T>().Remove(entity);
+            _dbcontext.SaveChanges();
         }
 
         public void Delete(IEnumerable<T> entities)
         {
-            throw new NotImplementedException();
+            _dbcontext.Set<T>().RemoveRange(entities);
+            _dbcontext.SaveChanges();
         }
 
-        public T Get(Expression<Func<T, bool>> predicate, bool asNoTracking = false, string includes = null)
+        public virtual T Get(Expression<Func<T, bool>> predicate, bool asNoTracking = false, string includes = null)
         {
             if (includes == null)
             {
@@ -76,6 +79,46 @@ namespace Infrastructure.Data
                 }
             }
         }
+        public virtual async Task<T> GetAsync(Expression<Func<T, bool>> predicate, bool asNoTracking = false, string includes = null)
+        {
+            if (includes == null)
+            {
+                if (asNoTracking)
+                {
+                    return await _dbcontext.Set<T>()
+                        .AsNoTracking()
+                        .Where(predicate)
+                        .FirstOrDefaultAsync();
+                }
+                else
+                {
+                    return await _dbcontext.Set<T>()
+                        .Where(predicate)
+                        .FirstOrDefaultAsync();
+                }
+            }
+            else
+            {
+                IQueryable<T> queryable = _dbcontext.Set<T>();
+                foreach (var includeProperty in includes.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    queryable = queryable.Include(includeProperty);
+                }
+                if (asNoTracking)
+                {
+                    return await _dbcontext.Set<T>()
+                        .AsNoTracking()
+                        .Where(predicate)
+                        .FirstOrDefaultAsync();
+                }
+                else
+                {
+                    return await _dbcontext.Set<T>()
+                        .Where(predicate)
+                        .FirstOrDefaultAsync();
+                }
+            }
+        }
 
         //virtual keyword is used to modify a method, property, indexer, or
         //and allows for it to be overridden in a derived class.
@@ -84,24 +127,97 @@ namespace Infrastructure.Data
             return _dbcontext.Set<T>().Find(id);
         }
 
-        public IEnumerable<T> List()
+        public virtual IEnumerable<T> List()
         {
-            throw new NotImplementedException();
+            return _dbcontext.Set<T>().ToList().AsEnumerable();
         }
 
-        public IEnumerable<T> List(Expression<Func<T, bool>> predicate, Expression<Func<T, int>> orderBy = null, string includes = null)
+        public virtual IEnumerable<T> List(Expression<Func<T, bool>> predicate, Expression<Func<T, int>> orderBy = null, string includes = null)
         {
-            throw new NotImplementedException();
+            IQueryable<T> queryable = _dbcontext.Set<T>();
+            if (predicate != null && includes == null)
+            {
+                return _dbcontext.Set<T>()
+                    .Where(predicate)
+                    .AsEnumerable();
+            }
+            else if (includes != null){
+                foreach (var includeProperty in includes.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    queryable = queryable.Include(includeProperty);
+                }
+            }
+            if (predicate == null)
+            {
+                if(orderBy == null)
+                {
+                    return queryable.AsEnumerable();
+                }
+                else
+                {
+                    return queryable.OrderBy(orderBy).ToList().AsEnumerable();
+
+                }
+                
+            }
+            else
+            {
+                if (orderBy == null) {
+                    return queryable.Where(predicate).ToList().AsEnumerable();
+                }
+                else
+                {
+                    return queryable.Where(predicate).OrderBy(orderBy).ToList().AsEnumerable();
+                }
+            }
         }
 
-        public Task<IEnumerable<T>> ListAsync(Expression<Func<T, bool>> predicate, Expression<Func<T, int>> orderBy = null, string includes = null)
+        public virtual async Task<IEnumerable<T>> ListAsync(Expression<Func<T, bool>> predicate, Expression<Func<T, int>> orderBy = null, string includes = null)
         {
-            throw new NotImplementedException();
+            IQueryable<T> queryable = _dbcontext.Set<T>();
+            if (predicate != null && includes == null)
+            {
+                return _dbcontext.Set<T>()
+                    .Where(predicate)
+                    .AsEnumerable();
+            }
+            else if (includes != null)
+            {
+                foreach (var includeProperty in includes.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    queryable = queryable.Include(includeProperty);
+                }
+            }
+            if (predicate == null)
+            {
+                if (orderBy == null)
+                {
+                    return queryable.AsEnumerable();
+                }
+                else
+                {
+                    return await queryable.OrderBy(orderBy).ToListAsync();
+
+                }
+
+            }
+            else
+            {
+                if (orderBy == null)
+                {
+                    return await queryable.Where(predicate).ToListAsync();
+                }
+                else
+                {
+                    return await queryable.Where(predicate).OrderBy(orderBy).ToListAsync();
+                }
+            }
         }
 
         public void Update(T entity)
         {
-            throw new NotImplementedException();
+            _dbcontext.Entry(entity).State = EntityState.Modified;
+            _dbcontext.SaveChanges();
         }
     }
 }
