@@ -38,4 +38,4 @@ namespace ApplicationCore.Interfaces
         void Update(T entity);
     }
 }
-}
+
