@@ -20,5 +20,20 @@ namespace FoodDelivery.Controllers
         {
             return Json(new {data = _unitofWork.Category.List() });
         }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            var objFromDb = _unitofWork.Category.Get(c => c.Id == id);
+            if (objFromDb == null)
+            {
+                return Json(new { success = false, message = "Error while deleting" });
+            }
+            _unitofWork.Category.Delete(objFromDb);
+            _unitofWork.commit();
+            return Json(new { success = true, message = "Delete Successful" });
+
+
+        }
     }
 }
