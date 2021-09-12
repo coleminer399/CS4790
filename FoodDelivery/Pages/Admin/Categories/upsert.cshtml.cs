@@ -29,7 +29,25 @@ namespace FoodDelivery.Pages.Admin.Categories
                     return NotFound();
                 }
             }
-            return Page();//assume insert new ode
+            return Page();//assume insert new mode
+        }
+        public IActionResult OnPost()
+        {
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
+            //if new
+            if (CategoryObj.Id == 0)
+            {
+                _unitofWork.Category.Add(CategoryObj);
+            }
+            else //existing
+            {
+                _unitofWork.Category.Update(CategoryObj);
+            }
+            _unitofWork.commit();
+            return RedirectToPage("./Index");
         }
     }
 }
