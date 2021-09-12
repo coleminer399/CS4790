@@ -9,6 +9,7 @@ namespace ApplicationCore.Interfaces
     public interface IUnitofWork
     {
         public IGenericRepository<Category> Category { get;}
+        public IGenericRepository<FoodType> FoodType { get; }
         int commit();
         Task<int> commitAsync();
     }

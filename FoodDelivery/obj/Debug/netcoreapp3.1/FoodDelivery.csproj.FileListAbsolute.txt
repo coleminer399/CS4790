@@ -425,3 +425,5 @@ C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.pdb
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.genruntimeconfig.cache
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Categories\upsert.cshtml.g.cs
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\FoodTypes\Index.cshtml.g.cs
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\FoodTypes\Upsert.cshtml.g.cs
