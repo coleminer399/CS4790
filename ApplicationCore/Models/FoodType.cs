@@ -9,7 +9,8 @@ namespace ApplicationCore.Models
     {
         [Key]
         public int Id { get; set; }
-        [Display(Name="Food Type")]
+        [Required]
+        [Display(Name = "Food Type")]
         public string Name { get; set; }
     }
 }
