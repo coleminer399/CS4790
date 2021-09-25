@@ -22,7 +22,7 @@ namespace FoodDelivery.Pages.Admin.FoodTypes
 
             if (id != 0)
             {//edit
-                FoodTypeObj = _unitofWork.FoodType.Get(u => u.MyProperty == id);
+                FoodTypeObj = _unitofWork.FoodType.Get(u => u.Id == id);
 
                 if (FoodTypeObj == null)
                 {
@@ -38,7 +38,7 @@ namespace FoodDelivery.Pages.Admin.FoodTypes
                 return Page();
             }
             //if new
-            if (FoodTypeObj.MyProperty == 0)
+            if (FoodTypeObj.Id == 0)
             {
                 _unitofWork.FoodType.Add(FoodTypeObj);
             }

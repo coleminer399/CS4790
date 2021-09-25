@@ -24,7 +24,7 @@ namespace FoodDelivery.Controllers
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            var objFromDb = _unitofWork.FoodType.Get(c => c.MyProperty == id);
+            var objFromDb = _unitofWork.FoodType.Get(c => c.Id == id);
             if (objFromDb == null)
             {
                 return Json(new { success = false, message = "Error while deleting" });
