@@ -1,12 +1,3 @@
-C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.AssemblyInfoInputs.cache
-C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.AssemblyInfo.cs
-C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.csproj.CoreCompileInputs.cache
-C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.RazorAssemblyInfo.cache
-C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.RazorAssemblyInfo.cs
-C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.csproj.AssemblyReference.cache
-C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\bin\Debug\netcoreapp3.1\FoodDelivery.exe
@@ -405,6 +396,15 @@ C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\bin\Debug\netcoreapp3.1\
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\bin\Debug\netcoreapp3.1\Infrastructure.dll
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\bin\Debug\netcoreapp3.1\Infrastructure.pdb
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\bin\Debug\netcoreapp3.1\ApplicationCore.pdb
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.csproj.AssemblyReference.cache
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.AssemblyInfoInputs.cache
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.AssemblyInfo.cs
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.csproj.CoreCompileInputs.cache
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.RazorAssemblyInfo.cache
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.RazorAssemblyInfo.cs
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\staticwebassets\FoodDelivery.StaticWebAssets.Manifest.cache
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\staticwebassets\FoodDelivery.StaticWebAssets.xml
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\scopedcss\bundle\FoodDelivery.styles.css
@@ -412,6 +412,9 @@ C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.TagHelpers.output.cache
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.RazorCoreGenerate.cache
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Categories\Index.cshtml.g.cs
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Categories\upsert.cshtml.g.cs
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\FoodTypes\Index.cshtml.g.cs
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\FoodTypes\Upsert.cshtml.g.cs
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -424,6 +427,4 @@ C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.dll
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.pdb
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.genruntimeconfig.cache
-C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Categories\upsert.cshtml.g.cs
-C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\FoodTypes\Index.cshtml.g.cs
-C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\FoodTypes\Upsert.cshtml.g.cs
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\MenuItems\Index.cshtml.g.cs

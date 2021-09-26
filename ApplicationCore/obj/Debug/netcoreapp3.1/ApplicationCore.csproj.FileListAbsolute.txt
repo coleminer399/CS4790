@@ -1,7 +1,6 @@
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\ApplicationCore\bin\Debug\netcoreapp3.1\ApplicationCore.deps.json
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\ApplicationCore\bin\Debug\netcoreapp3.1\ApplicationCore.dll
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\ApplicationCore\bin\Debug\netcoreapp3.1\ApplicationCore.pdb
-C:\Users\03cjm\Desktop\CS4790Folder\CS4790\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.csproj.AssemblyReference.cache
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.AssemblyInfoInputs.cache
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.AssemblyInfo.cs
