@@ -17,7 +17,7 @@ namespace Infrastructure.Data
         
         private IGenericRepository<Category> _Category;
         private IGenericRepository<FoodType> _FoodType;
-        private IGenericRepository<FoodType> _MenuItem;
+        private IGenericRepository<MenuItem> _MenuItem;
         public IGenericRepository<Category> Category
         {
             get
@@ -36,17 +36,17 @@ namespace Infrastructure.Data
 
             }
         }
-        public IGenericRepository<FoodType> MenuItem
+        public IGenericRepository<MenuItem> MenuItem
         {
             get
             {
-                if (_MenuItem == null) _MenuItem = new GenericRepository<FoodType>(_dbContext);
+                if (_MenuItem == null) _MenuItem = new GenericRepository<MenuItem>(_dbContext);
                 return _MenuItem;
 
             }
         }
 
-        IGenericRepository<MenuItem> IUnitofWork.MenuItem => throw new NotImplementedException();
+        //IGenericRepository<MenuItem> IUnitofWork.MenuItem => throw new NotImplementedException();
 
         public int commit()
         {

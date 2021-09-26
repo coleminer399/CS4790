@@ -7,8 +7,6 @@ C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.RazorAssemblyInfo.cache
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.RazorAssemblyInfo.cs
-C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.dll
-C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.pdb
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\staticwebassets\FoodDelivery.StaticWebAssets.Manifest.cache
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\staticwebassets\FoodDelivery.StaticWebAssets.xml
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\scopedcss\bundle\FoodDelivery.styles.css
@@ -28,6 +26,8 @@ C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.RazorTargetAssemblyInfo.cache
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.RazorTargetAssemblyInfo.cs
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.dll
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.pdb
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\bin\Debug\netcoreapp3.1\FoodDelivery.exe
