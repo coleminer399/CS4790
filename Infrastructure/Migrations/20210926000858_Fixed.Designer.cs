@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210925235845_MenuItem")]
-    partial class MenuItem
+    [Migration("20210926000858_Fixed")]
+    partial class Fixed
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
