@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\03cjm\\Desktop\\CS4790Folder\\CS4790\\FoodDelivery2\\FoodDelivery2\\FoodDelivery2.csproj": {}
+    "C:\\Users\\03cjm\\Desktop\\CS4790Folder\\CS4790\\FoodDelivery2\\FoodDelivery2\\FoodDelivery.csproj": {}
   },
   "projects": {
     "C:\\Users\\03cjm\\Desktop\\CS4790Folder\\CS4790\\ApplicationCore\\ApplicationCore.csproj": {
@@ -58,12 +58,12 @@
         }
       }
     },
-    "C:\\Users\\03cjm\\Desktop\\CS4790Folder\\CS4790\\FoodDelivery2\\FoodDelivery2\\FoodDelivery2.csproj": {
+    "C:\\Users\\03cjm\\Desktop\\CS4790Folder\\CS4790\\FoodDelivery2\\FoodDelivery2\\FoodDelivery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\03cjm\\Desktop\\CS4790Folder\\CS4790\\FoodDelivery2\\FoodDelivery2\\FoodDelivery2.csproj",
-        "projectName": "FoodDelivery2",
-        "projectPath": "C:\\Users\\03cjm\\Desktop\\CS4790Folder\\CS4790\\FoodDelivery2\\FoodDelivery2\\FoodDelivery2.csproj",
+        "projectUniqueName": "C:\\Users\\03cjm\\Desktop\\CS4790Folder\\CS4790\\FoodDelivery2\\FoodDelivery2\\FoodDelivery.csproj",
+        "projectName": "FoodDelivery",
+        "projectPath": "C:\\Users\\03cjm\\Desktop\\CS4790Folder\\CS4790\\FoodDelivery2\\FoodDelivery2\\FoodDelivery.csproj",
         "packagesPath": "C:\\Users\\03cjm\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\03cjm\\Desktop\\CS4790Folder\\CS4790\\FoodDelivery2\\FoodDelivery2\\obj\\",
         "projectStyle": "PackageReference",
