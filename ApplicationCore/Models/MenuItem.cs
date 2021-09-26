@@ -15,6 +15,8 @@ namespace ApplicationCore.Models
         public string Name { get; set; }
         [Range (1, int.MaxValue, ErrorMessage ="Price should be greater than $1")]
         public float Price { get; set; }
+        public string Description { get; set; }
+        public string Image { get; set; }
         public int CategoryID { get; set; }
         public int FoodTypeID { get; set; }
 
