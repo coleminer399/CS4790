@@ -30,10 +30,7 @@ namespace FoodDelivery.Pages.Admin.MenuItems
             {
                 MenuItem = new MenuItem(),
                 CategoryList = categories.Select(c => new SelectListItem { Value = c.Id.ToString(), Text = c.Name }),
-                FoodTypeList = foodTypes.Select(f => new SelectListItem
-                {
-                    Value = f.Id.ToString()
-                }),
+                FoodTypeList = foodTypes.Select(f => new SelectListItem{Value = f.Id.ToString()}),
 
             };
             if (id != 0)

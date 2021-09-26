@@ -1,0 +1,9 @@
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.csproj.AssemblyReference.cache
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.AssemblyInfoInputs.cache
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.AssemblyInfo.cs
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.csproj.CoreCompileInputs.cache
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.RazorAssemblyInfo.cache
+C:\Users\03cjm\Desktop\CS4790Folder\CS4790\FoodDelivery\obj\Debug\netcoreapp3.1\FoodDelivery.RazorAssemblyInfo.cs
