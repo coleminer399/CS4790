@@ -46,6 +46,8 @@ namespace Infrastructure.Data
             }
         }
 
+        IGenericRepository<MenuItem> IUnitofWork.MenuItem => throw new NotImplementedException();
+
         public int commit()
         {
             return _dbContext.SaveChanges();

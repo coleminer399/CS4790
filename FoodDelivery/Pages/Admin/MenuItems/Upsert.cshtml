@@ -53,26 +53,26 @@
                 </div>
                 <div class="form-group row">
                     <div class="col-3">
-                        <label asp-for="MenuItemObj.MenuItem.CategoryId"></label>
+                        <label asp-for="MenuItemObj.MenuItem.Category"></label>
                     </div>
                     <div class="col-9">
-                        @Html.DropDownListFor(m => m.MenuItemObj.MenuItem.CategoryId,
+                        @Html.DropDownListFor(m => m.MenuItemObj.MenuItem.Category,
                                                         Model.MenuItemObj.CategoryList,
                                                         " - Please select a category - ",
                                                         new { @class = "form-control" })
-                        <span class="text-danger" asp-validation-for="MenuItemObj.MenuItem.CategoryId"></span>
+                        <span class="text-danger" asp-validation-for="MenuItemObj.MenuItem.Category"></span>
                     </div>
                 </div>
                 <div class="form-group row">
                     <div class="col-3">
-                        <label asp-for="MenuItemObj.MenuItem.FoodTypeId"></label>
+                        <label asp-for="MenuItemObj.MenuItem.FoodType"></label>
                     </div>
                     <div class="col-9">
-                        @Html.DropDownListFor(m => m.MenuItemObj.MenuItem.FoodTypeId,
+                        @Html.DropDownListFor(m => m.MenuItemObj.MenuItem.FoodType,
                                                         Model.MenuItemObj.FoodTypeList,
                                                         " - Please select a food type - ",
                                                         new { @class = "form-control" })
-                        <span class="text-danger" asp-validation-for="MenuItemObj.MenuItem.FoodTypeId"></span>
+                        <span class="text-danger" asp-validation-for="MenuItemObj.MenuItem.FoodType"></span>
                     </div>
                 </div>
                 <div class="form-group row">
