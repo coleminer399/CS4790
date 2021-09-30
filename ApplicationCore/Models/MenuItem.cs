@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace ApplicationCore.Models
@@ -22,13 +21,12 @@ namespace ApplicationCore.Models
         public string Image { get; set; }
         [Required]
         public int CategoryID { get; set; }
-        [Required]
         public int FoodTypeID { get; set; }
 
         //Connect objects or tables
-        //[ForeignKey("CategoryId")]
-        //public virtual Category Category { get; set; }
-        //[ForeignKey("FoodTypeId")]
-        //public virtual FoodType FoodType { get; set; }
+        [ForeignKey("CategoryID")]
+        public virtual Category Category { get; set; }
+        [ForeignKey("FoodTypeID")]
+        public virtual FoodType FoodType { get; set; }
     }
 }
